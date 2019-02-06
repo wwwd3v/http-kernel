@@ -40,7 +40,8 @@
         "symfony/translation": "~4.2",
         "symfony/var-dumper": "^4.1.1",
         "psr/cache": "~1.0",
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "symfony/phpunit-bridge": "*"
     },
     "provide": {
         "psr/log-implementation": "1.0"
