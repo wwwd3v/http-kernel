@@ -14,6 +14,9 @@ namespace Symfony\Component\HttpKernel\HttpCache;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * TODO: No idea...
+ */
 interface SurrogateInterface
 {
     /**
