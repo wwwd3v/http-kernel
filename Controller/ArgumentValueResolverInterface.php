@@ -17,6 +17,8 @@ use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
 /**
  * Responsible for resolving the value of an argument based on its metadata.
  *
+ * TODO: have no idea...
+ *
  * @author Iltar van der Berg <kjarli@gmail.com>
  */
 interface ArgumentValueResolverInterface
