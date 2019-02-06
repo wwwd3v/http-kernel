@@ -323,6 +323,8 @@ class HttpKernelTest extends TestCase
     }
 
     /**
+     * TODO: don't really understand
+     *
      * @expectedException \Symfony\Component\HttpKernel\Exception\BadRequestHttpException
      */
     public function testInconsistentClientIpsOnMasterRequests()
