@@ -64,6 +64,9 @@ class KernelTest extends TestCase
         $this->assertNull($clone->getContainer());
     }
 
+    /**
+     * Don't really understand
+     */
     public function testInitializeContainerClearsOldContainers()
     {
         $fs = new Filesystem();
