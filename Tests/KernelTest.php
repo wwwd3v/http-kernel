@@ -65,7 +65,7 @@ class KernelTest extends TestCase
     }
 
     /**
-     * Don't really understand
+     * TODO: Don't really understand
      */
     public function testInitializeContainerClearsOldContainers()
     {
@@ -527,6 +527,9 @@ EOF;
         $this->assertSame(__DIR__.\DIRECTORY_SEPARATOR.'Fixtures', $kernel->getContainer()->getParameter('kernel.project_dir'));
     }
 
+    /**
+     * TODO: Do not understand
+     */
     public function testKernelReset()
     {
         (new Filesystem())->remove(__DIR__.'/Fixtures/var/cache');
@@ -553,6 +556,9 @@ EOF;
         $this->assertFileExists(\dirname($containerFile).'.legacy');
     }
 
+    /**
+     * TODO: do not understand
+     */
     public function testKernelPass()
     {
         $kernel = new PassKernel();
@@ -561,6 +567,9 @@ EOF;
         $this->assertTrue($kernel->getContainer()->getParameter('test.processed'));
     }
 
+    /**
+     * TODO: do not understand
+     */
     public function testServicesResetter()
     {
         $httpKernelMock = $this->getMockBuilder(HttpKernelInterface::class)
@@ -746,6 +755,9 @@ class CustomProjectDirKernel extends Kernel
     }
 }
 
+/**
+ * TODO: Do not understand
+ */
 class PassKernel extends CustomProjectDirKernel implements CompilerPassInterface
 {
     public function __construct()
