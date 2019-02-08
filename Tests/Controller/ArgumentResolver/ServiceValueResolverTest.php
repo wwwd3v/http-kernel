@@ -106,6 +106,8 @@ class ServiceValueResolverTest extends TestCase
     }
 
     /**
+     * TODO: Don't really understand
+     *
      * @expectedException \Symfony\Component\DependencyInjection\Exception\RuntimeException
      * @expectedExceptionMessage Cannot autowire argument $dummy of "Symfony\Component\HttpKernel\Tests\Controller\ArgumentResolver\DummyController::index()": it references class "Symfony\Component\HttpKernel\Tests\Controller\ArgumentResolver\DummyService" but no such service exists.
      */
